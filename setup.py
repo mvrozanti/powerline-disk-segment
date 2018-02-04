@@ -1,13 +1,13 @@
 from distutils.core import setup
 
-setup(name='powerline-mem-segment',
-      version='2.1',
-      description='Memory segment for Powerline',
-      author='Mads Kaloer',
-      author_email='mads@kaloer.com',
-      packages=['powerlinemem'],
-      url='https://github.com/mKaloer/powerline_mem_segment',
-      download_url='https://github.com/mKaloer/powerline_mem_segment/tarball/2.1',
+setup(name='powerline-disk-segment',
+      version='1.0',
+      description='Disk usage segment for Powerline',
+      author='nexor',
+      author_email='',
+      packages=['powerlinedisk'],
+      url='https://github.com/mvrozanti/powerline_disk_segment',
+      download_url='https://github.com/mvrozanti/powerline_disk_segment/tarball/2.1',
       install_requires=[
           "psutil"
       ]
